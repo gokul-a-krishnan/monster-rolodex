@@ -1,0 +1,11 @@
+# React starter app
+npx create-react-app .
+
+# Update Browser list
+npx browserslist@latest --update-db
+
+componentDidMount() will be called after component is rendered
+(Perfect place to call api for initial data)
+
+state => It is passed to childrens
+props => It is inherited from parent 
